@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "source/index.js",
-  
   "scripts": {
-    "test": "node index.js"
-    
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -24,6 +22,9 @@
   },
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "jest":{
+    "testEnvironment":"node"
   }
   
 }
