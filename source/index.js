@@ -5,7 +5,7 @@ const app = express()
 __dirname ='./source/'
 
 app.get('/', async(req, res, next) =>{
-        res.sendFile('login.html',{root: __dirname+ 'public/'});
+    res.sendFile('login.html',{root: __dirname+ 'public/'});
     //res.send(__dirname+ 'public/')
     })
 
